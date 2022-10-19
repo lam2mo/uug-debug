@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fib",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/fib",
+            "args": [],
+            "cwd": ".",
+            "stopAtEntry": true
+        },
+        {
+            "name": "getopt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/getopt",
+            "args": [],
+            "cwd": ".",
+            "stopAtEntry": true
+        },
+        {
+            "name": "getopt -s",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/getopt",
+            "args": ["-s"],
+            "cwd": ".",
+            "stopAtEntry": true
+        },
+        {
+            "name": "getopt -p lorem.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/getopt",
+            "args": ["-p", "lorem.txt"],
+            "cwd": ".",
+            "stopAtEntry": true
+        },
+        {
+            "name": "sigsegv",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/sigsegv",
+            "args": [],
+            "cwd": ".",
+            "stopAtEntry": false
+        },
+        {
+            "name": "struct",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/struct",
+            "args": [],
+            "cwd": ".",
+            "stopAtEntry": true
+        }
+    ]
+}
