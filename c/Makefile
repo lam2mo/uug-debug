@@ -1,4 +1,4 @@
-TARGETS=fib sigsegv struct
+TARGETS=fib getopt sigsegv struct
 CC=gcc -g
 
 all: $(TARGETS)
